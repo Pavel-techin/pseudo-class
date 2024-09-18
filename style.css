@@ -1,0 +1,19 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    background-image: linear-gradient(to right, rgba(255, 170, 0, 0.5), rgba(0, 255, 0, 0.5)), url(OIP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: multiply;
+}
+
+.banner>h1{
+    text-align: center;
+    padding: 45dvh;
+    font-family: Arial;
+    font-size: 2rem;
+    z-index: 99;
+}
